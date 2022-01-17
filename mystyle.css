@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+header{
+  background-color:transparent;
+  width:100%;
+  position:absolute;
+  z-index:1000;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-left:200px;
+  padding-right:80px;
+  padding-top:25px;
+  padding-bottom:10px;
+}
+
+.namesite{
+  text-decoration:none;
+  border: 1px solid white;
+  padding:2px 5px;
+  color:white;
+  text-transform:capitalize;
+  font-weight:700;
+  font-size:40px;
+}
+
+.navigation a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight:600px;
+  font-size: 18px;
+  padding-left:30px;
+}
+
+
+.navigation a:hover{
+  color:rgb(0, 0, 0);
+}
+
+section{
+  padding-left:180px;
+  padding-right:180px;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.main{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  background:url("https://www.teahub.io/photos/full/310-3106069_gradient-abstract.jpg")no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+
+.main h1{
+  color:rgb(0, 0, 0);
+  font-size:40px;
+  font-weight:500px;
+
+}
+
+.main h1 span{
+  display: inline-block;
+  margin-top:20px;
+  color:rgb(255, 255, 255);
+  font-size:25px;
+  font-weight:300px;
+}
+
+.main-button{
+  color:white;
+  background-color:rgb(33, 40, 245);
+  text-decoration:none;
+  font-size:25px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top:50px;
+  margin-left:150px;
+  transition: 0.6s ease;
+}
+
+
+.main-button:hover{
+  background-color:rgb(21, 26, 148);
+  transform:scale(1.1);
+}
+
+.icon {
+  width:400px;
+  height:400px;
+  padding-left:10px;
+  padding-top:18px;
+}
+
+
+.title{
+  display:flex;
+  justify-content:center;
+  color:rgb(0, 0, 0);
+  font-size:35px;
+  font-weight:100px;
+  margin-bottom:50px;
+}
+
+
+.content{
+  display:flex;
+  justify-content:space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color:white;
+  width:100%;
+  box-shadow:0 5px 25px rgba(21 26 148 /20% );
+  border-radius:10px;
+  padding:25px;
+  margin-bottom:25px;
+  transition: 0.6s ease
+}
+
+
+.card:hover{
+  transform:scale(1.1)
+}
+
+.icon1{
+  color:rgb(33, 40, 245);
+  font-size:100px;
+  text-align: center;
+
+}
+
+
+.info{
+  text-align:center;
+  
+}
+
+.recommended{
+  background:url("images/310-3106069_gradient-abstract.jpg")no-repeat;
+}
+
+
+
+.recommended .content{
+  margin-top: 60px;
+}
+
+.recommended-course{
+  background-color: white;
+  border:3px solid black;
+  min-height: 14em;
+  width:20em;
+  overflow:hidden;
+  border-radius: 10px;
+  margin:30px;
+  transition: 0.7s ease;
+}
+
+.recommended-course:hover{
+  transform:scale(1.1)
+}
+
+.recommended-course:hover .course-image{
+  opacity:0.95;
+}
+
+.course-image img{
+  width: 100%;
+}
+
+.course-info{
+  padding:1em;
+}
+
+.course-title{
+  font-size:20px;
+  color:black;
+
+}
+
+.course-category{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 10px;
+}
+
+.course-category span{
+  color: rgb(95, 95, 110);
+  text-transform:uppercase;
+}
+
+.more-info{
+  color:rgb(33, 40, 245);
+  font-size:16px ;
+  text-decoration:none;
+}
+
+.more-info:hover {
+  color:rgb(130, 134, 247);
+}
+
+article{
+  padding-top:60px;
+}
+
+article .card{
+  width:300px;
+
+}
+
+.footer{
+  background:url("images/310-3106069_gradient-abstract.jpg")no-repeat;
+  color:white;
+  padding:2em;
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.social-icons i{
+  size:50px;
+  padding-right:20px;
+}
+
+.footer-title{
+color:white;
+font-weight:500px;
+}
